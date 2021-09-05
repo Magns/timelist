@@ -1,0 +1,25 @@
+{
+  "name": "timelist",
+  "version": "0.1.0",
+  "description": "Organize items by date and time",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec --require ts-node/register src/**/*.test.ts"
+  },
+  "author": "Magnus A. Nygaard",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}
